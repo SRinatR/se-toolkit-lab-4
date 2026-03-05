@@ -10,7 +10,6 @@ from app.models.interaction import InteractionLog, InteractionLogCreate, Interac
 
 router = APIRouter()
 
-
 def _filter_by_item_id(
     interactions: list[InteractionLog], item_id: int | None
 ) -> list[InteractionLog]:
